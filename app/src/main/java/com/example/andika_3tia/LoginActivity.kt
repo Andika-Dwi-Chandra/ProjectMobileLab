@@ -29,6 +29,7 @@ class LoginActivity : AppCompatActivity() {
 //        val TombolLogin : Button = findViewById(R.id.btnLogin)
 //        val username : EditText = findViewById(R.id.edtUsername)
 //        val password : EditText = findViewById(R.id.edtPassword)
+        //        val password : EditText = findViewById(R.id.edtPassword)
 
         binding.btnLogin.setOnClickListener {
 
