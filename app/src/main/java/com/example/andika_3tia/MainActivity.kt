@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.andika_3tia.databinding.ActivityLoginBinding
 import com.example.andika_3tia.databinding.ActivityMainBinding
+import com.example.andika_3tia.pertemuan_5.LimaActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 
@@ -30,6 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.txtUsername.text = user
         binding.txtPassword.setText(pass)
+
 
         binding.btnSnackbar.setOnClickListener {
             Snackbar.make(binding.root, "Item dihapus",
@@ -60,6 +62,11 @@ class MainActivity : AppCompatActivity() {
                 .setCancelable(false)
                 .show()
         }
+
+        binding.btnLima.setOnClickListener {
+            startActivity(Intent(this, LimaActivity::class.java))
+        }
+
     }
 
 }
