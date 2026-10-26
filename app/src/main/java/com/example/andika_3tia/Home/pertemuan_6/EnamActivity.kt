@@ -26,7 +26,7 @@ class EnamActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.toolbar)
         supportActionBar?.apply {
-            title = "Halaman Pertemuan 5"
+            title = "Halaman Pertemuan 6"
             subtitle = "Ini adalah subtitle"
             setDisplayHomeAsUpEnabled(true)
             setDisplayShowHomeEnabled(true)

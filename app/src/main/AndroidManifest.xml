@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Andika_3TIA">
         <activity
-            android:name=".BaseActivity"
+            android:name=".SplashScreenActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -44,11 +44,19 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".BaseActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".Message.MessageActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Home.pertemuan_9.NinthActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".TutorialScreenActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
